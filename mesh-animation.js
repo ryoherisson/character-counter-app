@@ -68,7 +68,7 @@ class MeshAnimation {
     
     drawMesh() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        this.ctx.strokeStyle = '#444444';
+        this.ctx.strokeStyle = '#6699ff';
         this.ctx.lineWidth = 1;
         this.ctx.globalAlpha = 0.8;
         
@@ -107,7 +107,7 @@ class MeshAnimation {
             this.ctx.stroke();
         }
         
-        this.ctx.fillStyle = '#666666';
+        this.ctx.fillStyle = '#4d88ff';
         this.nodes.forEach(node => {
             this.ctx.beginPath();
             this.ctx.arc(node.x, node.y, 1, 0, Math.PI * 2);
